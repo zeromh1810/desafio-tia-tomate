@@ -1,0 +1,29 @@
+.click_button {
+	font-size: $medium;
+	padding:20px 10px;
+	color: $granite-gray;
+	font-family:$raleway;
+	border-radius:50px;
+	margin: 1rem;
+
+	&--medium {
+		@extend .click_button;
+		padding:30px 20px;
+	}
+
+	&--large {
+		@extend .click_button;
+		padding:20px 60px;
+	}
+
+	&--big {
+		@extend .click_button;
+		padding:20px 80px;
+		font-size: $large;
+		font-weight: $bold;
+	}
+
+}
+
+
+

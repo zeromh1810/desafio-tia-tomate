@@ -1,0 +1,13 @@
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+	flex-wrap: wrap;
+	background-color:$granite-gray;
+
+	&__logo {
+		padding:5rem 1rem;
+		max-width: 200px;
+	}
+}

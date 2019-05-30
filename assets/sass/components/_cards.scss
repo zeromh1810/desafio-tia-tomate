@@ -1,0 +1,14 @@
+.cards {
+	max-width: 700px;
+	border:1px solid $gray;
+	color:$granite-gray;
+	margin: 1rem;
+
+	&__img {
+		display: block;
+		max-width: 700px;
+		width:100%;
+		margin: 0 auto;
+	}
+}
+
